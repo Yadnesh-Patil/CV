@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JS Bootstrap bundle link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <Style>
+        li {
+            padding-left: 2rem;
+        }
+
+        ul li a:hover {
+            color: #ff8000;
+            color: rgb(142, 67, 231)
+        }
+
+        span {
+            color: rgb(142, 67, 231);
+        }
+
+        #doc{
+            margin-bottom: 20px;
+        }
+    </Style>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Sticky Navbar -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-gradient mb-3">
+        <div class="container-fluid ">
+            <a class="navbar-brand fs-2 fw-bold fst-italic ms-md-3" style="color: rgb(74,36,170);"
+                href="#"><h1 class="display-6 fw-bolder" style="font-family: cursive;">codeFolio</h1></a>
+
+            <!-- Responsive Page Menu Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse me-md-5" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> -->
+
+
+
+                <!-- NavBar Menu  -->
+                <ul class="navbar-nav me-md-5 ms-auto m-2" style="font-family:Gill Sans Extrabold, sans-serif;">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 fw-bolder" style="color: black;" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 fw-bolder" style="color: black;" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 fw-bolder" style="color: black;" href="#">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 fw-bolder" style="color: black;" href="#">Resume</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 fw-bolder" style="color: black;" href="#">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 fw-bolder" style="color: black;" href="#">Services</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- Home Body -->
+
+
+    <div class="card m-5 p-5 border-0" style="max-width: 100%;">
+        <div class="row g-0 my-5">
+
+            <div class="col-md-8">
+                <div class="card-body ">
+                    <h1 class="card-text display-3 fw-normal">Hello I'm, <span
+                            style="color: rgb(142, 67, 231);font-weight: bold;">Yadnesh</span></h1>
+                    <h1 class="card-text display-5 fw-normal">and I'm a passionate</h1>
+                    <h1 class="display-5 fw-normal" style="color:rgb(142, 67, 231)"><span class="card-text" id="element"></span></h1>
+                </div>
+
+                <div class="ms-4" id="doc">
+                    <button class="btn m-1 fs-4" style="background-color: rgb(142, 67, 231);"><a
+                            href="https://drive.google.com/file/d/1uskQbvBUXUC0WuAaz5uyvJWVSRQCENaA/view?usp=drive_link"
+                            target="_blank" style="text-decoration: none; color: whitesmoke">Download Resume</a></button>
+                    <button class="btn m-1 fs-4" style="background-color: rgb(142, 67, 231);"><a href="" class="" style="text-decoration: none; color: whitesmoke">Hire Me</a></button>
+                </div>
+            </div>
+            <div class="col-md-2 mb-5 ">
+                <img src="/static/CV_Images/IMG_2378[8pp+ og soft].JPG" style="width: 90%" class="img-fluid  shadow-lg rounded-circle" id="home_image"
+                    alt="My_Image">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About Body -->
+
+    <div class="bg-light bg-gradient">
+        <div class="card m-5 p-5 border-0 bg-light bg-gradient" style="max-width: 100%;">
+
+
+
+            <div class="row g-0 mt-5">
+
+                <div class="col-md-2 d-none d-lg-block">
+                    <img src="/static/CV_Images/IMG_2378[8pp+ og soft].JPG" style="height: 85%;" class="img-fluid rounded" alt="No Image">
+                </div>
+
+
+                <div class="col-md-9 ms-md-3">
+
+                    <div style="color: black;">
+                        <h5 class="fw-bolder text-muted">WHO AM I?</h5>
+                    </div>
+
+
+                    <div style="color: rgb(142, 67, 231);">
+                        <h1>I'm Yadnesh Patil, a Python FullStack Developer and Web Designer</h1>
+                    </div>
+
+
+                    <div class="fs-5" style="color: black;">
+                        <p class="fw-bold">I am a Python developer, specialize in building web
+                            applications using Python frameworks such as Django and Flask for the backend, and I'm
+                            proficient in
+                            frontend technologies like HTML, CSS, and JavaScript. I have worked on various projects
+                            where
+                            I've
+                            implemented features, optimized performance, and collaborated with cross-functional teams to
+                            deliver
+                            high-quality software solutions.</p>
+                    </div>
+
+
+                    <div class="img-fluid mt-2 mb-5">
+                        <a href="https://github.com/Yadnesh-Patil" target="_blank"><img class="img-fluid" width="3%"
+                                src="/static/CV_Images/social.png" alt="No Image"></a>
+                        <a href="https://www.instagram.com/yadnesh_patil_4943/" target="_blank"><img class="img-fluid"
+                                width="3%" src="/static/CV_Images/instagram.png" alt="No Image"></a>
+                        <a href="https://www.linkedin.com/in/yadnesh-patil-068846153/" target="_blank"><img
+                                class="img-fluid" width="3%" src="/static/CV_Images/github.png" alt="No Image"></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Projects -->
+
+    <div class="projectspage" id="PROJECTPAGE">
+        <div>
+            <p class="text-center fs-1 fw-bolder "
+                style="color: rgb(74,36,170); font-family: monospace;">Projects</p>
+        </div>
+    </div>
+
+    <div class="align-self-center">
+
+        <div class="card my-5 py-5 border-0 " style="max-width: 100%;">
+
+
+            <div class="d-flex flex-wrap" style="justify-content: center;">
+
+                <div class="card mx-4 mb-3 shadow-lg bg-body rounded" style="width: 35rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder" style="color: rgb(142, 67, 231);">File Transfer</h5>
+                        <p class="card-text fw-bold">In this project user can share multiple files through API (Postman)
+                            or Website, in
+                            return user will get a link to download those files which are uploaded using this
+                            web application.</p>
+                        <p class="fw-bold">It enables sharing, transferring or transmitting a file or a logical data
+                            object between
+                            different users and/or computers both locally and remotely</p>
+                    </div>
+                </div>
+
+
+                <div class="card mx-4 mb-3 shadow-lg bg-body rounded" style="width: 35rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder" style="color: rgb(142, 67, 231);">Car Rental System</h5>
+                        <p class="card-text fw-bold">In this project user will be able to rent a car online through the
+                            website. Admin will
+                            be able to manage data of the payments, Insurance, bookings, users, cars. User
+                            has to sign in to rent a car. In this user can view the details of the car.</p>
+                    </div>
+                </div>
+
+
+                <div class="card mx-4 mb-3 shadow-lg bg-body rounded" style="width: 35rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder" style="color: rgb(142, 67, 231);">Gallery Project</h5>
+                        <p class="card-text fw-bold">In this project user create his account and upload images and also
+                            can see images
+                            uploaded by other users where he can search images based on search
+                            category.</p>
+                    </div>
+                </div>
+
+
+                <div class="card mx-4 mb-3 shadow-lg bg-body rounded" style="width: 35rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder" style="color: rgb(142, 67, 231);">API CRUD operations</h5>
+                        <p class="card-text fw-bold">Made a simple API project through which we can map employees to
+                            their
+                            respective companies, where we can update, create, delete the details of
+                            employees and company using rest API through POSTMAN API development
+                            tool.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Resume Page -->
+
+    <div class="bg-light bg-gradient" id="">
+
+        <div class="m-5 p-5 border-0">
+
+            <div>
+                <h2 class="text-center fs-1 fw-bolder" style="color: rgb(74,36,170); font-family: monospace;">Resume
+                </h2>
+            </div>
+
+            <div class="mb-5" style="max-width: 100%;">
+
+                <p class="fw-bold fs-5">Recent non-IT professional with three years of experience seeking a challenging
+                    role
+                    as a Python Full Stack Developer. Eager to leverage my strong analytical and
+                    problem-solving skills developed in previous roles, coupled with a newfound passion
+                    for coding, to contribute effectively to a dynamic development team.</p>
+            </div>
+
+
+
+            <div class="row g-0" style="justify-content: center;">
+
+
+
+                <div class="col-md-5 px-4 border-start border-warning border-5">
+
+                    <div class=" mb-3" style="font-family: monospace; color: rgb(74,36,170);">
+                        <h2 class="fw-bolder">Work Experience</h2>
+                    </div>
+
+                    <div class="mb-5">
+                        <h4 class="mb-3"><span class="">Cirrius Technologies</span> (Aug-2018 / Sept-2021)</h4>
+                        <h6><span class="">Product Executive</span> (Aug-2018 to July-2020) and <span class="">Team
+                                Leader</span> (Aug-2020 to Sept-2021)</h6>
+                        <p class="fw-bold">Documentation of all communication with users and accounts accurately
+                            and in a timely manner via system tools. Ensuring that issues are escalated
+                            appropriately to relevant internal departments and management regarding
+                            the product (Phyzii CRM).</p>
+                        <p class="fw-bold">Aligning with key stake holders to establish stronger customer relationship
+                            management and function with internal cross functional teams like (product,
+                            support) to ensure customer issues/solutions are addressed.</p>
+                        <p class="fw-bold">Identify and reconcile errors in client data to ensure accurate business
+                            requirements. Frequent meetings at client end for requirement gathering
+                            and discussing priority issues.
+                            .</p>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="col-md-5 px-4 border-start border-warning border-5">
+
+                    <div class="mb-3" style="font-family: monospace; color: rgb(74,36,170);">
+                        <h2 class="fw-bolder">Qualification</h2>
+                    </div>
+
+                    <div class="my-5">
+                        <h4>Bachelor of Science - Information Technologies</h4>
+                        <h5>Mumbai University</h5>
+                    </div>
+
+
+                    <div class="my-5">
+                        <h4>HSC</h4>
+                        <h5>Maharashtra State Board of Secondary & Higher Secondary Education</h5>
+                    </div>
+
+                    <div class="my-5">
+                        <h3>SSC</h3>
+                        <h4>Maharashtra State Board of Secondary & Higher Secondary Education</h4>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Script -->
+
+    <!-- Setup and start animation! -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'Python Developer,', 'Wordpress Specialist.'],
+            typeSpeed: 50,
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
